@@ -13,12 +13,12 @@
         "cover": "jest --coverage"
     },
     "devDependencies": {
-        "@babel/core": "^7.16.10",
+        "@babel/core": "7.17.9",
         "@babel/eslint-parser": "^7.16.5",
         "@babel/plugin-proposal-class-properties": "^7.16.7",
         "@intlify/eslint-plugin-vue-i18n": "^2.0.0",
         "@vue/test-utils": "^1.3.0",
-        "@vue/vue2-jest": "^28.0.1",
+        "@vue/vue2-jest": "^28.1.0",
         "axe-core": "^4.3.5",
         "axios": "^0.21.2",
         "babel-core": "^7.0.0-bridge.0",
@@ -30,14 +30,14 @@
         "eslint": "^7.32.0",
         "eslint-config-standard": "^14.1.1",
         "eslint-plugin-import": "^2.25.4",
-        "eslint-plugin-jest": "^26.5.3",
+        "eslint-plugin-jest": "^27.1.6",
         "eslint-plugin-jsonc": "^2.5.0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^4.3.1",
         "eslint-plugin-standard": "^4.1.0",
         "eslint-plugin-vue": "^7.0.0",
         "glob": "^7.2.0",
-        "jest": "^28.1.2",
+        "jest": "^28.1.3",
         "jest-config": "^28.1.2",
         "jest-transform-stub": "^2.0.0",
         "jsdom": "^16.2.2",
@@ -72,6 +72,11 @@
         "vue-router": "^3.2.0",
         "vue-swatches": "^2.1.0",
         "vuex": "^3.4.0"
+    },
+    "overrides": {
+      "@babel/core": "7.17.9",
+      "@babel/generator": "7.17.9",
+      "istanbul-lib-instrument": "5.2.0"
     },
     "engines": {
         "node": "^10.12.0 || >=12.0.0"
